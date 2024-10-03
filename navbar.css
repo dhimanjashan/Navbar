@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cornsilk;
+}
+nav{
+    top: 0px;
+    position: sticky;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 3px 4px;
+    padding: 2px 5px;
+    font-size: 20px;
+}
+nav ul li{
+    margin: 16px 30px;
+}
+a:hover{
+    color: grey;
+}
+#para{
+    margin: 234px 0px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: gray;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#para2{
+    background-color: gray;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 234px 0px;
+    padding: 10px 20px;
+}
